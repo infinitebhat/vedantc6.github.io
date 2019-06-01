@@ -13,7 +13,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="assets/images/ai.gif" alt="" data-position="center center" width="200px" height="200px"/>
+			<img src="assets/images/ai.gif" alt="" data-position="center center" height="400px"/>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -25,7 +25,7 @@ nav-menu: true
 				<li>Red squares repesent the source and destination. The agent starts from top-left corner and has to reach bottom-right corner.</li>
 				<li>Black cells represent obstacles</li>
 				<li>White cells represent explorable space</li></ul> 
-				<img src="assets/images/ai_search_1.png"/>
+				<img src="assets/images/ai_search_1.png">
 				Three different algorithms are used:
 				<ul>
 				<li>Breadth-First Search</li>
@@ -39,13 +39,13 @@ nav-menu: true
 				<li><b>Thinning A* -</b> A variation of the A* algorithm to reduce number of redundant searches</li>
 				<li><b>Fire in the Maze -</b> A variation of the search problem, which tests the intelligence of the agent when raced against time. With every new timestep, the fire starts spreading to adjacent nodes, and now the agent has to reach the destination while avoiding fire. This is accomplished by using a heuristic based DFS approach, where closeness to fire is penalized while closeness to target is rewarded</li>
 				</ul>
-				<img src="assets/images/dfs.gif" width="200px" height="200px"/>
-				<img src="assets/images/bfs.gif" width="200px" height="200px"/>
-				<img src="assets/images/astar.gif" width="200px" height="200px"/>
-				<img src="assets/images/fire_dfs.gif" width="200px" height="200px"/>
-				<b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
+				<img src="assets/images/dfs.gif" width="200px" height="200px">
+				<img src="assets/images/bfs.gif" width="200px" height="200px">
+				<img src="assets/images/astar.gif" width="200px" height="200px">
+				<img src="assets/images/fire_dfs.gif" width="200px" height="200px">
+				<b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br></p>
 				<ul class="actions">
-					<li><a href="https://github.com/vedantc6/CS543-MusicGenreRecognition" class="button">Learn more</a></li>
+					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/MazeRunner" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
