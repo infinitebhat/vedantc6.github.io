@@ -27,7 +27,7 @@ nav-menu: true
 				<li><b>Bonus CSP Solver:</b>This is just en extension of the the CSP solver. Unlike a typical mineweeper game where the agent will know what lies behind a cell once it is opened, this solver will only get the information with some probability. Hence, if it opens a cell, there is an 80% chance of the agent receiving the correct information.</li>
 				</ul></p>
 				<figure>
-					<img src="assets/images/minesweeper.gif" width="400px" height="400px">	
+					<img src="assets/images/minesweeper.gif" width="500px" height="300px">	
 					<figcaption>Left: True Environment, Right: Solver</figcaption>
 				</figure>
 				<ul class="actions">
@@ -81,12 +81,13 @@ nav-menu: true
 					<img src="assets/images/fire_dfs.gif" width="200px" height="200px">	
 					<figcaption>DFS for Fire Maze</figcaption>
 				</figure>
+				</p>
 				<ul class="actions">
 					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/MazeRunner" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section>	
 	<section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
