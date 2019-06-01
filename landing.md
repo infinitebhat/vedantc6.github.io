@@ -65,19 +65,19 @@ nav-menu: true
 					<li><b>Thinning A* -</b> A variation of the A* algorithm to reduce number of redundant searches</li>
 					<li><b>Fire in the Maze -</b> A variation of the search problem, which tests the intelligence of the agent when raced against time. With every new timestep, the fire starts spreading to adjacent nodes, and now the agent has to reach the destination while avoiding fire. This is accomplished by using a heuristic based DFS approach, where closeness to fire is penalized while closeness to target is rewarded</li>
 				</ul>
-				<figure>
+				<figure float="left">
 					<img src="assets/images/dfs.gif" width="200px" height="200px">
 					<figcaption>DFS</figcaption>
 				</figure>
-				<figure>
+				<figure float="left">
 					<img src="assets/images/bfs.gif" width="200px" height="200px">
 					<figcaption>BFS</figcaption>
 				</figure>
-				<figure>
+				<figure float="left">
 					<img src="assets/images/astar.gif" width="200px" height="200px">
 					<figcaption>A*</figcaption>
 				</figure>
-				<figure>
+				<figure float="left">
 					<img src="assets/images/fire_dfs.gif" width="200px" height="200px">	
 					<figcaption>DFS for Fire Maze</figcaption>
 				</figure>
