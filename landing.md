@@ -13,7 +13,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="assets/images/ai.gif" alt="" data-position="center center" />
+			<img src="assets/images/ai.gif" alt="" data-position="center center" width="200px" height="200px"/>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -39,28 +39,11 @@ nav-menu: true
 				<li><b>Thinning A* -</b> A variation of the A* algorithm to reduce number of redundant searches</li>
 				<li><b>Fire in the Maze -</b> A variation of the search problem, which tests the intelligence of the agent when raced against time. With every new timestep, the fire starts spreading to adjacent nodes, and now the agent has to reach the destination while avoiding fire. This is accomplished by using a heuristic based DFS approach, where closeness to fire is penalized while closeness to target is rewarded</li>
 				</ul>
-				<img src="assets/images/dfs.gif"/>
-				<img src="assets/images/bfs.gif"/>
-				<img src="assets/images/astar.gif"/>
-				<img src="assets/images/fire_dfs.gif"/>
+				<img src="assets/images/dfs.gif" width="200px" height="200px"/>
+				<img src="assets/images/bfs.gif" width="200px" height="200px"/>
+				<img src="assets/images/astar.gif" width="200px" height="200px"/>
+				<img src="assets/images/fire_dfs.gif" width="200px" height="200px"/>
 				<b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
-				<ul class="actions">
-					<li><a href="https://github.com/vedantc6/CS543-MusicGenreRecognition" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Music Genre Belief Recognition</h3>
-				</header>
-				<p>This was the major project for the course CS543: Massive Data Storage and Retrieval. The aim of the project was to be able to predict genre of a song with time sequencing. It was conceptualized and modelled with the help of spectrograms, convolutional neural networks and recurrent neural networks (later replaced by time-distributed layers to improve upon accuracy). Finally, the model was deployed and visualized on web by using TensorflowJS front-end development. <b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/2p-13hnVhA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 				<ul class="actions">
 					<li><a href="https://github.com/vedantc6/CS543-MusicGenreRecognition" class="button">Learn more</a></li>
 				</ul>
