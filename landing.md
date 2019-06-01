@@ -18,6 +18,50 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
+					<h3>Mazerunner - AI Search Algorithms</h3>
+				</header>
+				<p>The goal of this project is to compare and analyse different search algorithms commonly used in AI. A grid is generated and presented as an environment to the agent.
+				<ul>
+				<li>Red squares repesent the source and destination. The agent starts from top-left corner and has to reach bottom-right corner.</li>
+				<li>Black cells represent obstacles</li>
+				<li>White cells represent explorable space</li></ul> 
+				Three different algorithms are used:
+				<ul>
+				<li>Breadth-First Search</li>
+				<li>Depth-First Search</li>
+				<li>A* Algorithm with Euclidean and Manhattan distance heuristics</li>
+				</ul><b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/2p-13hnVhA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				<ul class="actions">
+					<li><a href="https://github.com/vedantc6/CS543-MusicGenreRecognition" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Music Genre Belief Recognition</h3>
+				</header>
+				<p>This was the major project for the course CS543: Massive Data Storage and Retrieval. The aim of the project was to be able to predict genre of a song with time sequencing. It was conceptualized and modelled with the help of spectrograms, convolutional neural networks and recurrent neural networks (later replaced by time-distributed layers to improve upon accuracy). Finally, the model was deployed and visualized on web by using TensorflowJS front-end development. <b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/2p-13hnVhA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				<ul class="actions">
+					<li><a href="https://github.com/vedantc6/CS543-MusicGenreRecognition" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
 					<h3>Music Genre Belief Recognition</h3>
 				</header>
 				<p>This was the major project for the course CS543: Massive Data Storage and Retrieval. The aim of the project was to be able to predict genre of a song with time sequencing. It was conceptualized and modelled with the help of spectrograms, convolutional neural networks and recurrent neural networks (later replaced by time-distributed layers to improve upon accuracy). Finally, the model was deployed and visualized on web by using TensorflowJS front-end development. <b>Tech used: Python, TensorflowJS, Keras, JavaScript, HTML, CSS</b><br>
