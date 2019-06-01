@@ -27,16 +27,16 @@ nav-menu: true
 				<li><b>Bonus CSP Solver:</b>This is just en extension of the the CSP solver. Unlike a typical mineweeper game where the agent will know what lies behind a cell once it is opened, this solver will only get the information with some probability. Hence, if it opens a cell, there is an 80% chance of the agent receiving the correct information.</li>
 				</ul></p>
 				<figure>
-					<img src="assets/images/minesweeper.gif" width="200px" height="200px">	
+					<img src="assets/images/minesweeper.gif" width="400px" height="400px">	
 					<figcaption>Left: True Environment, Right: Solver</figcaption>
 				</figure>
 				<ul class="actions">
-					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/Minesweeper" class="button">Learn more</a></li>
+					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/MineSweeper" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
+	<!-- <section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/ai.gif" alt="" data-position="center center" height="400px"/>
 		</a>
@@ -50,7 +50,7 @@ nav-menu: true
 				<li>Red squares repesent the source and destination. The agent starts from top-left corner and has to reach bottom-right corner.</li>
 				<li>Black cells represent obstacles</li>
 				<li>White cells represent explorable space</li></ul> 
-				<img src="assets/images/ai_search_1.png" width="200px" height="200px">
+				<img src="assets/images/ai_search_1.png" width="200px" height="200px"><br>
 				Three different algorithms are used:
 				<ul>
 				<li>Breadth-First Search</li>
@@ -87,7 +87,7 @@ nav-menu: true
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
