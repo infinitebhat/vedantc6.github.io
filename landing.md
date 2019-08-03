@@ -18,76 +18,21 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Minesweeper - Constraint Satisfaction Problems</h3>
+					<h3>CS520: Artificial Intelligence Coursework</h3>
 				</header>
-				<p>Second project for CS520: Introduction to Artificial Intelligence, where the goal was to create an AI bot able to solve Minesweeper at different levels of difficulty. 3 different solvers are created:
+				<p>All the coursework was designed and conceptualized from scratch, using only Numpy.</p>
 				<ul>
-				<li><b>Basic Solver:</b>The basic solver is the most risk-free solver which will not think on its own but just play the safest moves possible. It will stop the game if there are no further safe moves possible. It is a baseline model which we developed to evaluate the accuracy and effectiveness of the other complex models.</li>
-				<li><b>CSP Solver:</b>This is the main bot which plays the game just like humans. CSP refers to Constraint Satisfaction Problem since this is the main algorithm used by the agent. It plays the game just like a normal human - by creating different constraints for each square opened and each mine flagged. When it opens a cell or flags it, the knowledge base is updated and the constraints/equations are resolved.</li>
-				<li><b>Bonus CSP Solver:</b>This is just en extension of the the CSP solver. Unlike a typical mineweeper game where the agent will know what lies behind a cell once it is opened, this solver will only get the information with some probability. Hence, if it opens a cell, there is an 80% chance of the agent receiving the correct information.</li>
-				</ul></p>
-				<figure>
-					<img src="assets/images/minesweeper.gif" width="500px" height="300px">	
-					<figcaption>Left: True Environment, Right: Solver</figcaption>
-				</figure>
+					<li>Mazerunner - AI Search Algorithms</li>
+					<li>Minesweeper - Constraint Satisfaction Problems</li>
+					<li>Search and Destroy - Bayesian Networks</li>
+					<li>Image Colorizer - Neural Networks</li>
+				</ul>
 				<ul class="actions">
-					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/MineSweeper" class="button">Learn more</a></li>
+					<li><a href="https://github.com/vedantc6/CS520-AI" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/ai.gif" alt="" data-position="center center" height="400px"/>
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Mazerunner - AI Search Algorithms</h3>
-				</header>
-				<p>The goal of this project is to compare and analyse different search algorithms commonly used in AI. A grid is generated and presented as an environment to the agent.
-				<ul>
-					<li>Red squares repesent the source and destination. The agent starts from top-left corner and has to reach bottom-right corner.</li>
-					<li>Black cells represent obstacles</li>
-					<li>White cells represent explorable space</li>
-				</ul> 
-				<img src="assets/images/ai_search_1.png" width="200px" height="200px"/><br>
-				Three different algorithms are used:
-				<ul>
-					<li>Breadth-First Search</li>
-					<li>Depth-First Search</li>
-					<li>A* Algorithm with Euclidean and Manhattan distance heuristics</li>
-				</ul>
-				The project is divided into 4 stages:
-				<ul>
-					<li><b>Time analysis and comparison -</b> A comparison of the different algorithms in terms of time taken to find optimal paths, size of different mazes and which performs better</li>
-					<li><b>Generating hard mazes -</b> Finding harder mazes based on length of shortest path, nodes expanded by an algorithm, max. time taken to find the path</li>
-					<li><b>Thinning A* -</b> A variation of the A* algorithm to reduce number of redundant searches</li>
-					<li><b>Fire in the Maze -</b> A variation of the search problem, which tests the intelligence of the agent when raced against time. With every new timestep, the fire starts spreading to adjacent nodes, and now the agent has to reach the destination while avoiding fire. This is accomplished by using a heuristic based DFS approach, where closeness to fire is penalized while closeness to target is rewarded</li>
-				</ul>
-				<figure float="left">
-					<img src="assets/images/dfs.gif" width="200px" height="200px">
-					<figcaption>DFS</figcaption>
-				</figure>
-				<figure float="left">
-					<img src="assets/images/bfs.gif" width="200px" height="200px">
-					<figcaption>BFS</figcaption>
-				</figure>
-				<figure float="left">
-					<img src="assets/images/astar.gif" width="200px" height="200px">
-					<figcaption>A*</figcaption>
-				</figure>
-				<figure float="left">
-					<img src="assets/images/fire_dfs.gif" width="200px" height="200px">	
-					<figcaption>DFS for Fire Maze</figcaption>
-				</figure>
-				</p>
-				<ul class="actions">
-					<li><a href="https://github.com/vedantc6/CS520-AI/tree/master/MazeRunner" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>	
 	<section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/genre_recog.gif" alt="" data-position="center center" />
