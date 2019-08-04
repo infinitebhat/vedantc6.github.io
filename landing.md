@@ -18,31 +18,31 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
+					<h3>Crowdsourcing Analysis and Visualization</h3>
+				</header>
+				<p><b>Best Project Award</b><br>
+				Crowdsourcing Analysis and Visualization (CSAV) aims to look into a relatively unexplored data (Kickstarter website), with the aim to present a visually appealing and interactive dashboard for users, allowing them to view important metrics at geographical and categorical level. There is also a use of temporal data, to draw trends and insights into how the products have been launched on a daily basis. Since, there are majorly two final statuses of a project - successful, failure - the data has enabled us to implement logistic regression for predicting whether a project will be successful or not. Logistic regression has been chosen for its simplicity and efficiency in predicting balanced binary classes.
+				<iframe width="560" height="315" src="https://youtu.be/zSPa_i3OWDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				<ul class="actions">
+					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/vedantc6/CS526-DIVA" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/ml.gif" alt="" data-position="center center" height="400px"/>
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
 					<h3>ManyLabs Data Completion and Interpolation</h3>
 				</header>
 				<p>Engineered a model pipeline to clean, and then impute the missing value columns through machine learning techniques iteratively on a psychology study dataset. The dataset comes from psychology studies in the Many Labs series, an attempt to test the replicability or generalizability of psychological effects. To support the model pipeline and to impute the missing columns, the following algorithms were made from scratch (to understand the math behind the models):
 				<ul>
-					<li>Regression Algorithms:
-						<li>Mean Imputation (Baseline)</li>
-						<li>Linear Regression</li>
-						<li>Ridge Regression</li>
-						<li>K-Nearest Neighbors</li>
-						<li>Decision Trees</li>
-						<li>Artificial Neural Networks</li>
-					</li>
-					<li>Classification Algorithms:
-						<li>Mode Imputation (Baseline)</li>
-						<li>Logistic Regression</li>
-						<li>Softmax Regression</li>
-						<li>K-Nearest Neighbors</li>
-						<li>Decision Trees</li>
-						<li>Adaboost</li>
-					</li>
-					<li>Generative Algorithms:
-						<li>K-Means Clustering</li>
-						<li>Gaussian Mixture Models</li>
-						<li>Variational Autoencoders (not from scratch)</li>
-					</li>
+					<li>Regression Algorithms: Mean Imputation (Baseline), Linear Regression, Ridge Regression, K-Nearest Neighbors, Decision Trees, Artificial Neural Networks</li>
+					<li>Classification Algorithms: Mode Imputation (Baseline), Logistic Regression, Softmax Regression, K-Nearest Neighbors, Decision Trees, Adaboost</li>
+					<li>Generative Algorithms: K-Means Clustering, Gaussian Mixture Models, Variational Autoencoders (not from scratch)</li>
 				</ul>
 				</p>
 				<ul class="actions">
