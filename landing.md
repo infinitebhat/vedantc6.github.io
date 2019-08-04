@@ -22,7 +22,7 @@ nav-menu: true
 				</header>
 				<p><b>Best Project Award</b><br>
 				Crowdsourcing Analysis and Visualization (CSAV) aims to look into a relatively unexplored data (Kickstarter website), with the aim to present a visually appealing and interactive dashboard for users, allowing them to view important metrics at geographical and categorical level. There is also a use of temporal data, to draw trends and insights into how the products have been launched on a daily basis. Since, there are majorly two final statuses of a project - successful, failure - the data has enabled us to implement logistic regression for predicting whether a project will be successful or not. Logistic regression has been chosen for its simplicity and efficiency in predicting balanced binary classes.<b>Tech used: Python, D3.js, Flask, JavaScript, HTML, CSS</b><br>
-				<iframe width="560" height="315" src="https://youtu.be/zSPa_i3OWDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/zSPa_i3OWDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 				<ul class="actions">
 					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/vedantc6/CS526-DIVA" class="button">Learn more</a></li>
 				</ul>
