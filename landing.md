@@ -13,7 +13,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="assets/images/ml.gif" alt="" data-position="center center" height="400px"/>
+			<img src="assets/images/dv.gif" alt="" data-position="center center" height="400px"/>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -21,7 +21,7 @@ nav-menu: true
 					<h3>Crowdsourcing Analysis and Visualization</h3>
 				</header>
 				<p><b>Best Project Award</b><br>
-				Crowdsourcing Analysis and Visualization (CSAV) aims to look into a relatively unexplored data (Kickstarter website), with the aim to present a visually appealing and interactive dashboard for users, allowing them to view important metrics at geographical and categorical level. There is also a use of temporal data, to draw trends and insights into how the products have been launched on a daily basis. Since, there are majorly two final statuses of a project - successful, failure - the data has enabled us to implement logistic regression for predicting whether a project will be successful or not. Logistic regression has been chosen for its simplicity and efficiency in predicting balanced binary classes.
+				Crowdsourcing Analysis and Visualization (CSAV) aims to look into a relatively unexplored data (Kickstarter website), with the aim to present a visually appealing and interactive dashboard for users, allowing them to view important metrics at geographical and categorical level. There is also a use of temporal data, to draw trends and insights into how the products have been launched on a daily basis. Since, there are majorly two final statuses of a project - successful, failure - the data has enabled us to implement logistic regression for predicting whether a project will be successful or not. Logistic regression has been chosen for its simplicity and efficiency in predicting balanced binary classes.<b>Tech used: Python, D3.js, Flask, JavaScript, HTML, CSS</b><br>
 				<iframe width="560" height="315" src="https://youtu.be/zSPa_i3OWDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 				<ul class="actions">
 					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/vedantc6/CS526-DIVA" class="button">Learn more</a></li>
@@ -44,7 +44,7 @@ nav-menu: true
 					<li>Classification Algorithms: Mode Imputation (Baseline), Logistic Regression, Softmax Regression, K-Nearest Neighbors, Decision Trees, Adaboost</li>
 					<li>Generative Algorithms: K-Means Clustering, Gaussian Mixture Models, Variational Autoencoders (not from scratch)</li>
 				</ul>
-				</p>
+				<b>Tech used: Python</b></p>
 				<ul class="actions">
 					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/vedantc6/ML_FinalProject" class="button">Learn more</a></li>
 				</ul>
@@ -67,6 +67,7 @@ nav-menu: true
 					<li>Search and Destroy - Bayesian Networks</li>
 					<li>Image Colorizer - Neural Networks</li>
 				</ul>
+				<p><b>Tech used: Python</b></p>
 				<ul class="actions">
 					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/vedantc6/CS520-AI" class="button">Learn more</a></li>
 				</ul>
