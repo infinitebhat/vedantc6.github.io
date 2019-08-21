@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-layout: portfolio
+layout: landing
 description: 'Things that interest me, make me burn the midnight oil.<br>Check out some projects I have worked on. Most of them are in the field of Machine Learning, Deep Learning and Data Science - areas that interest me the most.'
 image: assets/images/pic07.jpg
 nav-menu: true
